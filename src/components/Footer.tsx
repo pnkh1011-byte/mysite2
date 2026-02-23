@@ -28,7 +28,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-12 border-t border-border flex flex-col md:flex-row justify-between items-center gap-6 text-textSecondary text-sm">
-          <p>© 2025 ELARA FILMS. ALL RIGHTS RESERVED.</p>
+          <p>© 2025 COZ FILMS. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">PRIVACY POLICY</a>
             <a href="#" className="hover:text-white transition-colors">TERMS OF SERVICE</a>

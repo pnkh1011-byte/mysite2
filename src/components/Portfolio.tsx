@@ -31,17 +31,10 @@ const projects = [
     aspect: "aspect-[16/9]"
   },
   {
-    title: "Wilderness Echoes",
-    category: "Documentary",
-    videoUrl: "https://www.youtube.com/watch?v=P64CWPaCzf8",
-    image: "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    aspect: "aspect-[16/9]"
-  },
-  {
-    title: "The Urban Pulse",
-    category: "Commercial",
-    videoUrl: "https://mediazilla.com/bgvxOMpozg",
-    image: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Product demo (visual)",
+    category: "Product Film",
+    videoUrl: "https://player.vimeo.com/video/818865293?badge=0&autopause=0&player_id=0&app_id=58479",
+    image: "https://images.pexels.com/photos/36275422/pexels-photo-36275422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     aspect: "aspect-[16/9]"
   }
 ];

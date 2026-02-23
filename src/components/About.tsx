@@ -8,9 +8,9 @@ export const About = () => {
   return (
     <section id="about" className="py-32 px-8 bg-surface/30">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-        <motion.div style={{ scale }} className="relative aspect-[4/5] rounded-2xl overflow-hidden">
+        <motion.div style={{ scale }} className="relative aspect-[16/9] rounded-2xl overflow-hidden">
           <img 
-            src="https://images.pexels.com/photos/210647/pexels-photo-210647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            src="https://images.pexels.com/photos/36275632/pexels-photo-36275632.png" 
             alt="Videographer at work"
             className="w-full h-full object-cover"
           />
