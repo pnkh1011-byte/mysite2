@@ -10,7 +10,7 @@ export const About = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <motion.div style={{ scale }} className="relative aspect-video rounded-2xl overflow-hidden order-2 lg:order-1">
           <img 
-            src="https://www.pexels.com/photo/36275632/" 
+            src="https://images.pexels.com/photos/36275632/pexels-photo-36275632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
             alt="City Skyline Bridge"
             className="w-full h-full object-cover"
           />
