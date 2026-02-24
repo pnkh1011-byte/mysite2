@@ -30,20 +30,6 @@ const verticalProjects = [
     videoUrl: "https://mediazilla.com/iDhC7r13yC",
     image: "https://images.pexels.com/photos/36264441/pexels-photo-36264441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     aspect: "aspect-[9/16]"
-  },
-  {
-    title: "Neon Pulse",
-    category: "Lifestyle",
-    videoUrl: "https://mediazilla.com/6Nf4qfjMdr",
-    image: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    aspect: "aspect-[9/16]"
-  },
-  {
-    title: "Urban Flow",
-    category: "Street",
-    videoUrl: "https://mediazilla.com/bgvxOMpozg",
-    image: "https://images.pexels.com/photos/36264236/pexels-photo-36264236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    aspect: "aspect-[9/16]"
   }
 ];
 

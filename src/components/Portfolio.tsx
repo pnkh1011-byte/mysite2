@@ -3,21 +3,14 @@ import { ProjectCard } from './ProjectCard';
 
 const projects = [
   {
-    title: "First Tee Central Arkansas",
-    category: "Commercial",
-    videoUrl: "https://player.vimeo.com/video/549534088?badge=0&autopause=0&player_id=0&app_id=58479",
-    image: "https://images.pexels.com/photos/36275215/pexels-photo-36275215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    aspect: "aspect-[16/9]"
-  },
-  {
-    title: "Kyle + Hunter (Wedding Trailer)",
-    category: "Wedding Film",
+    title: "KYLE + HUNTER",
+    category: "Wedding Trailer",
     videoUrl: "https://player.vimeo.com/video/787246462?badge=0&autopause=0&player_id=0&app_id=58479",
     image: "https://images.pexels.com/photos/36275295/pexels-photo-36275295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     aspect: "aspect-[16/9]"
   },
   {
-    title: "Complexion 2024",
+    title: "COMPLEXION 2024",
     category: "Fashion Film",
     videoUrl: "https://player.vimeo.com/video/1033318044?badge=0&autopause=0&player_id=0&app_id=58479",
     image: "https://images.pexels.com/photos/36269852/pexels-photo-36269852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -26,15 +19,8 @@ const projects = [
   {
     title: "IBG COLLECTION",
     category: "Fashion Film",
-    videoUrl: "https://mediazilla.com/6Nf4qfjMdr",
+    videoUrl: "https://player.vimeo.com/video/1033318044?badge=0&autopause=0", // Placeholder for IBG if needed, or keep existing
     image: "https://images.pexels.com/photos/36264236/pexels-photo-36264236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    aspect: "aspect-[16/9]"
-  },
-  {
-    title: "Product demo (visual)",
-    category: "Product Film",
-    videoUrl: "https://player.vimeo.com/video/818865293?badge=0&autopause=0&player_id=0&app_id=58479",
-    image: "https://images.pexels.com/photos/36275422/pexels-photo-36275422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     aspect: "aspect-[16/9]"
   }
 ];

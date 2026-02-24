@@ -3,21 +3,21 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 export const About = () => {
   const { scrollYProgress } = useScroll();
-  const scale = useTransform(scrollYProgress, [0.4, 0.6], [0.8, 1]);
+  const scale = useTransform(scrollYProgress, [0.4, 0.6], [0.9, 1]);
 
   return (
     <section id="about" className="py-32 px-8 bg-surface/30">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-        <motion.div style={{ scale }} className="relative aspect-[16/9] rounded-2xl overflow-hidden">
+        <motion.div style={{ scale }} className="relative aspect-video rounded-2xl overflow-hidden order-2 lg:order-1">
           <img 
-            src="https://images.pexels.com/photos/36275632/pexels-photo-36275632.png" 
-            alt="Videographer at work"
+            src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            alt="City Skyline Bridge"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-primary/10 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-primary/5 mix-blend-overlay" />
         </motion.div>
 
-        <div>
+        <div className="order-1 lg:order-2">
           <h2 className="text-sm uppercase tracking-[0.4em] text-primary mb-6">The Vision</h2>
           <h3 className="text-5xl font-bold tracking-tighter mb-8 leading-tight">
             WE DON'T JUST RECORD MOMENTS. WE CAPTURE EMOTIONS.
